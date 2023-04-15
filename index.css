@@ -1,0 +1,40 @@
+.bg {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.container {
+  background-color: #fff;
+  height: auto;
+  margin: auto;
+  border: 6px solid yellow;
+  border-radius: 20px;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  gap: 2em;
+}
+
+.jokes {
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.jokes_btn {
+  padding: 13px 15px;
+  font-size: 1em;
+  background: yellow;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+}
